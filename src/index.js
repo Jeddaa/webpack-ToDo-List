@@ -1,10 +1,12 @@
 import './style.css';
 import displayTask from './modules/displayTask.js';
 import removeTask from './modules/removeTask.js';
+// import statusUpdate from './modules/statusUpdate.js';
 
 const Container = document.querySelector('.to-do');
 const input = document.querySelector('.add-task');
 const form = document.querySelector('.form');
+const remove = document.querySelector('.remove');
 
 let tasks = [];
 
@@ -42,6 +44,20 @@ const addTask = () => {
   });
 };
 
+remove.addEventListener('click', () => {
+  savedTasks();
+  const List = tasks.filter((item) => !item.completed);
+  for (let i = 0; i < List.length; i += 1) {
+    List[i].index = i + 1;
+  }
+  tasks = List;
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  displayTask(tasks, Container);
+  removeTask(tasks, Container, displayTask);
+});
+
 addTask();
 displayTask(tasks, Container);
 removeTask(tasks, Container, displayTask);
+// statusUpdate(displayTask, removeTask, tasks, Container);
+console.log(tasks);

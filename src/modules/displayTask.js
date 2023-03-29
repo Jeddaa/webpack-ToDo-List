@@ -4,7 +4,7 @@ const displayTask = (tasks, Container) => {
     const eachTask = `
     <li>
     <div class="input-div">
-    <input type="checkbox" id="${task.index}" name='' value="${task.completed}">
+    <input ${task.completed ? 'checked' : ''} type="checkbox" id="complete-${task.index}">
     <input class='desc task-desc-${task.index}' name='' value="${task.description}">
     </div>
     <i class="fa fa-ellipsis-v dots-${task.index}" aria-hidden="true" type="button" id="${task.index}"></i>
