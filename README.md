@@ -152,6 +152,6 @@ A special thank you to the author of the original design idea Cindy Shin in [Beh
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/microverse-project1/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/webpack-ToDo-List/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
