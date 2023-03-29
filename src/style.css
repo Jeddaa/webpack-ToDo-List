@@ -13,6 +13,12 @@ body {
   border: 1px solid #bebebe;
 }
 
+.header {
+  display: flex;
+  padding: 0.8em;
+  justify-content: space-between;
+}
+
 .add-task {
   border: none;
   width: 80%;
@@ -20,13 +26,13 @@ body {
 
 h3 {
   margin: 0;
-  padding: 0.8em;
   font-weight: 400;
 }
 
 .refresh {
   font-size: 1em;
   color: #e5e5e5;
+  align-self: center;
 }
 
 .remove {
@@ -49,9 +55,15 @@ h3 {
   padding: 0.8em;
   justify-content: space-between;
   border-top: 1px #e5e5e5 solid;
-  align-content: center;
-  align-items: center;
-  align-self: center;
+}
+
+.add-task-div > button {
+  border: none;
+  background: none;
+}
+
+.enter {
+  color: #e5e5e5;
 }
 
 .to-do {
@@ -59,14 +71,6 @@ h3 {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-hr {
-  border-width: thin;
-  border-color: #e5e5e5;
-  border-style: none;
-  border-spacing: 1px;
-  border: solid 0.5px #ff4f39;
 }
 
 .to-do > li {
@@ -80,17 +84,21 @@ hr {
   width: 100%;
 }
 
-.dots {
+.fa-ellipsis-v {
   color: #e5e5e5;
   font-size: 1rem;
 }
 
-.trash {
+.fa-trash-o {
   color: #e5e5e5;
   font-size: 1rem;
   display: none;
 }
 
-.task-desc {
+.desc {
   border: none;
+}
+
+.input-div {
+  display: flex;
 }

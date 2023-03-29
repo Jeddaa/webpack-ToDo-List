@@ -1,41 +1,47 @@
 import './style.css';
+import displayTask from './modules/displayTask.js';
+import removeTask from './modules/removeTask.js';
 
-const toDoContainer = document.querySelector('.to-do');
+const Container = document.querySelector('.to-do');
+const input = document.querySelector('.add-task');
+const form = document.querySelector('.form');
 
-const tasks = [
-  {
-    index: 1,
-    description: 'Wash plates',
-    completed: false,
-  },
-  {
-    index: 2,
-    description: 'Grocery shopping',
-    completed: false,
-  },
-  {
-    index: 3,
-    description: 'meal preparation',
-    completed: false,
-  },
-];
+let tasks = [];
 
-const displayTask = () => {
-  let finalHtml = '';
-  tasks.forEach((task) => {
-    const eachTask = `
-    <li>
-    <div>
-    <input type="checkbox" id="${task.index}" name='' value="${task.completed}">
-    <input class='task-desc' name='' value="${task.description}">
-    </div>
-    <i class="fa fa-ellipsis-v dots" aria-hidden="true" type="button" id="${task.index}"></i>
-    <i class="fa fa-trash-o trash" aria-hidden="true" type="button" id="${task.index}"></i>
-    </li>
-    `;
-    finalHtml += eachTask;
+function savedTasks() {
+  if (localStorage.getItem('tasks')) {
+    tasks = JSON.parse(localStorage.getItem('tasks'));
+  }
+}
+savedTasks();
+
+const addTask = () => {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    savedTasks();
+    if (input.value !== '') {
+      if (tasks.length > 0) {
+        tasks.push({
+          description: input.value,
+          index: tasks[tasks.length - 1].index + 1,
+          completed: false,
+        });
+      } else {
+        tasks.push({
+          description: input.value,
+          index: 1,
+          completed: false,
+        });
+      }
+    }
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    savedTasks();
+    displayTask(tasks, Container);
+    removeTask(tasks, Container, displayTask);
+    input.value = '';
   });
-  toDoContainer.innerHTML = finalHtml;
 };
 
-window.addEventListener('load', displayTask);
+addTask();
+displayTask(tasks, Container);
+removeTask(tasks, Container, displayTask);
