@@ -28,16 +28,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="Capstone Project"></a>
+# 📖 [TO-DO LIST] <a name="to-do list"></a>
 
-Hello welcome to my **[Portfolio]**. This is a demo project on the upcoming World Health Summit.
+Hello welcome to my **[TO-DO LIST]**. This is a demo project for a minimalist to-do list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
   <ul>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
@@ -49,13 +48,9 @@ Hello welcome to my **[Portfolio]**. This is a demo project on the upcoming Worl
 
 ### Key Features <a name="key-features"></a>
 
-- Home Page
-- About page
+- Add new task bar
+- display all added tasks
 <!-- - Contact Me section -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Video Demo <a name="#video"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +140,13 @@ Kindly help check for errors or bugs. Feel free to contact me on what could be d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- ACKNOWLEDGEMENTS
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 A special thank you to the author of the original design idea Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), my learning partners and standup team for their help and support. Thank you to my friends for always answering my numerous questions too.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
