@@ -1,0 +1,95 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70vw;
+  background-color: #fff;
+  border: 1px solid #bebebe;
+}
+
+.add-task {
+  border: none;
+  width: 80%;
+}
+
+h3 {
+  margin: 0;
+  padding: 0.8em;
+}
+
+.refresh {
+  font-size: 1em;
+  color: #e5e5e5;
+}
+
+.remove {
+  background-color: #f7f5f5;
+  text-align: center;
+  border: none;
+  height: 4em;
+  color: #757272;
+  font-size: 0.9em;
+}
+
+.form {
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+
+.add-task-div {
+  display: flex;
+  padding: 0.8em;
+  justify-content: space-between;
+  border-top: 1px #e5e5e5 solid;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.to-do {
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  border-width: thin;
+  border-color: #e5e5e5;
+  border-style: none;
+  border-spacing: 1px;
+  border: solid 0.5px #ff4f39;
+}
+
+.to-do > li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px #e5e5e5 solid;
+  padding: 0.8em;
+}
+
+.to-do > li > div {
+  width: 100%;
+}
+
+.dots {
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+.trash {
+  color: #e5e5e5;
+  font-size: 1rem;
+  display: none;
+}
+
+.task-desc {
+  border: none;
+}
