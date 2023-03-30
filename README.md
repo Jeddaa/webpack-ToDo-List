@@ -1,6 +1,27 @@
 <a name="readme-top"></a>
 
-# Portfolio Set Up
+<!-- HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions! -->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -10,14 +31,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -50,6 +69,10 @@ Hello welcome to my **[TO-DO LIST]**. This is a demo project for a minimalist to
 
 - Add new task bar
 - display all added tasks
+- remove completed tasks
+- clear all completed tasks
+- refresh list
+
 <!-- - Contact Me section -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -122,6 +145,15 @@ Example command:
 - GitHub: [Jeddaa](https://github.com/jeddaa)
 - Twitter: [@\_jeddaah](https://twitter.com/_jeddaah)
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[clean ui design]**
+- [ ] **[minimalistic design]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -140,18 +172,18 @@ Kindly help check for errors or bugs. Feel free to contact me on what could be d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-A special thank you to the author of the original design idea Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), my learning partners and standup team for their help and support. Thank you to my friends for always answering my numerous questions too.
+A special thank you to learning partners and my friends for always answering my numerous questions.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/webpack-ToDo-List/blob/main/LICENSE) licensed.
+This project is [LICENSED](https://github.com/Jeddaa/webpack-ToDo-List/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

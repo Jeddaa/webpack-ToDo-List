@@ -1,3 +1,5 @@
+import statusUpdate from './statusUpdate.js';
+
 const removeTask = (tasks, Container, displayTask) => {
   if (!tasks) {
     return;
@@ -6,6 +8,7 @@ const removeTask = (tasks, Container, displayTask) => {
     const dots = document.querySelector(`.dots-${task.index}`);
     const trash = document.querySelector(`.trash-${task.index}`);
     const desc = document.querySelector(`.task-desc-${task.index}`);
+    const check = document.getElementById(`complete-${task.index}`);
 
     dots.addEventListener('mouseover', () => {
       dots.style.display = 'none';
@@ -44,6 +47,7 @@ const removeTask = (tasks, Container, displayTask) => {
       displayTask(tasks, Container);
       removeTask(tasks, Container, displayTask);
     });
+    statusUpdate(displayTask, removeTask, tasks, Container, task, check, desc);
   });
 };
 export default removeTask;
