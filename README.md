@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-# Portfolio Set Up
-
 <!-- TABLE OF CONTENTS -->
 
 ## 📗 Table of Contents
@@ -19,7 +17,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)

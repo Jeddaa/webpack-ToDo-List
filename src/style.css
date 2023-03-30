@@ -104,10 +104,6 @@ h3 {
   display: flex;
 }
 
-.active {
-  text-decoration: line-through;
-}
-
 input[type='checkbox']:checked ~ input {
   color: red;
   text-decoration: line-through;
