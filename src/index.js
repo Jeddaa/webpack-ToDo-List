@@ -1,7 +1,6 @@
 import './style.css';
 import displayTask from './modules/displayTask.js';
 import removeTask from './modules/removeTask.js';
-// import statusUpdate from './modules/statusUpdate.js';
 
 const Container = document.querySelector('.to-do');
 const input = document.querySelector('.add-task');
@@ -59,5 +58,3 @@ remove.addEventListener('click', () => {
 addTask();
 displayTask(tasks, Container);
 removeTask(tasks, Container, displayTask);
-// statusUpdate(displayTask, removeTask, tasks, Container);
-console.log(tasks);
