@@ -33,6 +33,7 @@ h3 {
   font-size: 1em;
   color: #e5e5e5;
   align-self: center;
+  cursor: pointer;
 }
 
 .remove {
@@ -101,4 +102,13 @@ h3 {
 
 .input-div {
   display: flex;
+}
+
+.active {
+  text-decoration: line-through;
+}
+
+input[type='checkbox']:checked ~ input {
+  color: red;
+  text-decoration: line-through;
 }

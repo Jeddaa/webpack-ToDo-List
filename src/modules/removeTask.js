@@ -47,7 +47,7 @@ const removeTask = (tasks, Container, displayTask) => {
       displayTask(tasks, Container);
       removeTask(tasks, Container, displayTask);
     });
-    statusUpdate(displayTask, removeTask, tasks, Container, task, check);
+    statusUpdate(displayTask, removeTask, tasks, Container, task, check, desc);
   });
 };
 export default removeTask;

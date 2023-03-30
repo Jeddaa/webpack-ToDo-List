@@ -6,6 +6,7 @@ const Container = document.querySelector('.to-do');
 const input = document.querySelector('.add-task');
 const form = document.querySelector('.form');
 const remove = document.querySelector('.remove');
+const refresh = document.querySelector('.refresh');
 
 let tasks = [];
 
@@ -53,6 +54,12 @@ remove.addEventListener('click', () => {
   localStorage.setItem('tasks', JSON.stringify(tasks));
   displayTask(tasks, Container);
   removeTask(tasks, Container, displayTask);
+});
+
+refresh.addEventListener('click', () => {
+  tasks = [];
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  displayTask(tasks, Container);
 });
 
 addTask();
