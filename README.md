@@ -31,6 +31,7 @@ After you're finished please remove all the comments and instructions! -->
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -74,6 +75,12 @@ Hello welcome to my **[TO-DO LIST]**. This is a demo project for a minimalist to
 - refresh list
 
 <!-- - Contact Me section -->
+
+<!-- - Live Demo -->
+
+### Live Demo <a name="live-demo"></a>
+
+In order to view the deployed version of this project [click here](https://jeddaa.github.io/webpack-ToDo-List/dist/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
